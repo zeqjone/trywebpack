@@ -1,0 +1,14 @@
+﻿# Ignore docs files
+
+# 忽略的文件夹
+bin
+obj
+debug
+release
+node_modules
+LogFile
+# 忽略后缀名是suo的文件
+*.suo
+*.pubxml
+*.user
+*.xls

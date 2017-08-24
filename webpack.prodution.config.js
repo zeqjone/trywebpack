@@ -11,7 +11,7 @@ module.exports = {
 //	},
 	entry:__dirname + '/app/app.js',
 	output:{
-		path:__dirname + '/public',
+		path:__dirname + '/build',
 		filename:'bundle-[hash].js'
 	},
 	devServer:{
@@ -69,7 +69,7 @@ module.exports = {
 		new webpackHtml({
 			template:__dirname + '/app/index.tmpl.html'
 		}),
-		//new webpack.optimize.UglifyJsPlugin(),
+		new webpack.optimize.UglifyJsPlugin(),
 		new webpack.optimize.OccurrenceOrderPlugin(),
 		new webpackExactText('[name].css'),
 	],

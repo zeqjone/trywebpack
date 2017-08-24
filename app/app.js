@@ -5,5 +5,11 @@
 import React from 'react';
 import {render} from 'react-dom';
 import Greeter from './greet';
+import Header from './common/header';
 
-render(<Greeter />,document.getElementById('root'));
+import '../css/bootstrap/css/bootstrap.min.css';
+import '../css/animate.css';
+import '../css/reset.css';
+
+
+render(<Header />,document.getElementById('root'));

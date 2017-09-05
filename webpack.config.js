@@ -35,7 +35,6 @@ module.exports = {
 			use: webpackExactText.extract({
 		          	fallback: 'style-loader',
 		          	use:[
-					//'style-loader',
 		          	{ 
 		          		loader: 'css-loader', 
 		          		options: { 

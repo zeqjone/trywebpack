@@ -1,0 +1,12 @@
+{
+	"user": "jsdfklw9w32",
+    "password": "kjdw*32^%dw",
+    "server": "60.205.183.208",
+    "database": "lvy821",
+    "connectionTimeout":10000, 
+    "requestTimeout":10000,
+    "options":{
+    	"encrypt":false //set to true if the database server is on the windows Azure.
+    }
+}
+
